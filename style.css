@@ -1,0 +1,55 @@
+body{
+    background-color: black;
+margin-top: 50px;
+}
+.post{
+    background-color: white;
+    width: 600px;
+    margin:auto;
+    padding-bottom: 20px;
+    padding-top: 15px;
+}
+.post-header{
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+
+}
+.html5{
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    flex-grow: 1;
+    left: 5px;
+    padding-right: 10px;
+
+}
+.right{
+    display: flex;
+    margin-left: auto;
+    align-items: center;
+}
+.pic{
+    height: 400px;
+    width: 600px;
+}
+.post-icons{
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    padding-right: 10px;
+    gap: 10px;
+    padding-top: 20px;
+    padding-left: 5px;
+}
+.fa-bookmark{
+    margin-left: auto;
+}
+.liked{
+    padding-left: 15px;
+    font-size: 18px;
+    padding-top: 20px;
+}
